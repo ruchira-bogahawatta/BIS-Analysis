@@ -43,6 +43,18 @@ This project focuses on analyzing a dataset to identify key factors influencing 
       - 📈 **Scatter Plots** for correlation analysis
    - Derived observations based on trends and relationships identified in the visualizations
      
+
+**Feature Groups**
+
+| **Income Group**                               | **Loan Amount Group**                      |
+|-------------------------------------------------|------------------------------------------|
+| Low: $0 - $24,999                               | Small: $0 - $5,000                         |
+| Low-Middle: $25,000 - $49,999                   | Medium: $5,000 - $10,000                   |
+| Middle: $50,000 - $74,999                       | Large: $10,000 - $15,000                   |
+| High-Middle: $75,000 - $99,999                  | Very Large: $15,000 and above             |
+| High: $100,000 and above (∞)                    |                                          |
+
+
 3. **Predictive Analysis**
    - Feature Scaling perfomed using `StandardScaler()`
    - Utilized `Random Forest Classifier` to build the prediction model
