@@ -87,4 +87,4 @@ This project focuses on analyzing a dataset to identify key factors influencing 
 
 ## Future Improvement
    - The target variable has an imbalanced distribution, with fewer defaults than non-defaults. Consider using techniques like SMOTE or class weighting in the model to address this imbalance
-   - Model performence can be furhter improved through techniques like Hyperparameter tunning and advanced feature engineering
+   - Model performance can be further improved through advanced feature engineering and by experimenting with other classifiers, such as XGBoost, to explore potential improvements.
